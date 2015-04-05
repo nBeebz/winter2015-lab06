@@ -7,6 +7,25 @@ and open the template in the editor.
 
 <!DOCTYPE order SYSTEM 'order.dtd'>
 
-<order>
-    
+
+<order type="takeout">
+	<customer>George</customer>
+	<burger>
+		<patty type="beef" />
+		<cheese top="gruyere" bottom="swiss"/>
+		<sauce type="ketchup" />
+	</burger>
+	<burger>
+		<patty type="veggie" />
+		<cheese top="gouda" bottom="gouda"/>
+		<topping type="lettuce" />
+		<topping type="tomato" />
+	</burger>
+    <burger>
+		<patty type="turkey" />
+		<cheese top="brie" />
+		<topping type="raw" />
+		<sauce type="salsa" />
+		<sauce type="fksauce" />
+	</burger>
 </order>
